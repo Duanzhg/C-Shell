@@ -1,0 +1,36 @@
+# depslib dependency file v1.0
+1604808750 source:/home/duanz/Documents/workspace/shell/src/CShell-pro/main.c
+	<stdio.h>
+	<stdlib.h>
+	<unistd.h>
+	<fcntl.h>
+	<sys/wait.h>
+	<string.h>
+	<sys/stat.h>
+	<pwd.h>
+	"parse.h"
+	"utils.h"
+
+1604808652 source:/home/duanz/Documents/workspace/shell/src/CShell-pro/parse.c
+	"parse.h"
+	<stdlib.h>
+
+1604808648 /home/duanz/Documents/workspace/shell/src/CShell-pro/parse.h
+	"utils.h"
+
+1604808208 /home/duanz/Documents/workspace/shell/src/CShell-pro/utils.h
+	"variable.h"
+
+1604807825 /home/duanz/Documents/workspace/shell/src/CShell-pro/variable.h
+
+1604808436 source:/home/duanz/Documents/workspace/shell/src/CShell-pro/utils.c
+	<stdio.h>
+	<stdlib.h>
+	<unistd.h>
+	<fcntl.h>
+	<sys/wait.h>
+	<string.h>
+	<sys/stat.h>
+	<pwd.h>
+	"variable.h"
+
