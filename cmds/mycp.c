@@ -2,6 +2,8 @@
 #include <stdlib.h>
 #include <fcntl.h>
 #include <unistd.h>
+#define COPYMODE 0644
+#define BUF 4096
 
 
 

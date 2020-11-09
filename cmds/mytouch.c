@@ -8,7 +8,10 @@
 #include<stdbool.h>
 #include<sys/time.h>
 #include<time.h>
- 
+ #define CH_ATIME 1
+#define CH_MTIME 2
+
+ #define MODE_RW_UGO (S_IRUSR | S_IWUSR | S_IRGRP | S_IWGRP | S_IROTH | S_IWOTH)
 
  
 static int change_times;
